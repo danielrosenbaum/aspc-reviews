@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "ASPC Reviews",
+  "version": "1.0",
+  "description": "This extension will allow you to see reviews for courses and instructors while selecting your classes.",
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  },
+
+  "icons": {"16": "logo.png",
+            "48": "logo.png"},
+  
+  "permissions": ["<all_urls>"]
+}
