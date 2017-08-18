@@ -21,7 +21,7 @@ function noResults(input){
 	grid_result = ""
 
 	if (input == "Cecil Sagehen"){
-		return result = "<img style='margin-top: 10px; margin-left: 100px;' src='/cecil.jpg'>";
+		return result = "<img style='margin-top: 10px; margin-left: 100px;' src='/images/cecil.jpg'>";
 	}
 	return result = "<h6>No professors named: " + input + "</h6>";
 
