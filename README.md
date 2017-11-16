@@ -1,9 +1,8 @@
 # ASPC Reviews Chrome Extension 
-This extension allows you to search by course or professor name and returns the ratings they have recieved on the ASPC website by Pomona College students. 
+This extension allows users to search the course and professor reviews/ratings as they are on the ASPC website by Pomona College students making it more accessible and easier to choose classes!
 
 ### Version 2.1
-Updated feature allows users to also search for courses using the same input bar and both professor and course results will be returned. Navigation between these two sections can be done through scrolling or using the two buttons in the top right corner.
+Updated feature allows users to also search for courses using the same input bar. Navigation between professor and course results can be done by scrolling or using the two buttons in the top right corner.
 
 # Download 
-Go to the Chrome Web Store and add the extension to your Chrome. 
-Here is the line for [ASPC Reviews!](https://chrome.google.com/webstore/detail/aspc-reviews/dfmonlpnhaampencbahekbloekmcihmd)
+Here is the link to download [ASPC Reviews](https://chrome.google.com/webstore/detail/aspc-reviews/dfmonlpnhaampencbahekbloekmcihmd) from the Google Chrome Web Store.
