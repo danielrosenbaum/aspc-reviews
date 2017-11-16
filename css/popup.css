@@ -1,16 +1,16 @@
 /*
 popup.css
-
 the style file for the popup
 */
 
 /* Style for search bar */
 input {
 	font-family: 'Lato', sans-serif;
-	width: calc(100% - 75px); 
+	width: calc(100% - 95px); 
 	border: 0; 
-	font-size: 17px; 
-	margin-left: 0px;"
+	font-size: 16px; 
+	margin-left: 0px;
+	margin-top: 2px;
 }
 
 input.middle:focus {
@@ -29,7 +29,7 @@ p {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 12px;
-	margin-right: 55px;
+	margin-right: 80px;
 }
 
 hr {
@@ -44,14 +44,6 @@ hr {
     background-color: rgb(230, 230, 230); 
 }
 
-#grid_name {
-	color: rgb(50, 50, 50); 
-}
-
-#grid_name:hover{
-	font-style: italic;
-}
-
 .prof_name {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
@@ -61,9 +53,18 @@ hr {
 	margin-top: 10px;
 	display: inline-block;
 }
+.class_code {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	margin-left: 15px;
+	margin-bottom: 2px;
+	margin-top: 0px;
+	display: inline-block;
+}
 
 #no_reviews {
-	margin-right: 90px;
+	margin-right: 212px;
 	margin-bottom: 3px;
 }
 
@@ -91,104 +92,30 @@ h6 {
 	margin-left: 10px;
 }
 
-
-/* Style for grid results */
-
-table {
+.title_header {
+	margin: 4px;
+	cursor: pointer;
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-    border-collapse: collapse;
-    margin-bottom: 5px;
-    margin-left: 3px;
-    margin-right: 3px;
-    display: block;
-    table-layout: fixed
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 5px;
-
-}
-
-th {
+	font-weight: 400;
 	font-size: 11px;
 }
 
-td:hover {
-	font-style: italic;
-
+.section_header {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	margin-left: 15px;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
+button:hover {
+	background-color: rgba(109,157,197, 0.5);
+}
+button {
+	width: 75px;
 }
 
-tr:hover {
-	/*background-color: #f5f5f5*/
-	background-color: rgb(153, 204, 255)
-}
-
-tbody, thead {
-	display: block;
-}
-
-thead{
-	position: fixed;
-	background-color: white;
-	table-layout: fixed;
-	width: 100%;
-	z-index: 1;
-
-}
-tbody {
-	overflow: auto;
-	width: 785px;
-	position: relative;
-	padding-top: 24px;
-	font-size: 12px;
-	padding-bottom: 1px;
-}
-
-td.name, th.name {
-	width: 136px;
-}
-
-.rating {
-	width: 41px;
-}
-
-.useful_rating {
-	width: 59px;
-}
-
-.engagement_rating {
-	width: 65px;
-}
-.difficulty_rating {
-	width: 52px;
-}
-
-.competency_rating {
-	width: 67px;
-}
-
-.lecturing_rating {
-	width: 53px;
-}
-
-.enthusiasm_rating {
-	width: 63px;
-}
-
-.approachable_rating {
-	width: 80px;
-}
-
-.inclusivity_rating {
-	width: 58px;
-
+.selected_header {
+	background-color: rgba(109,157,197, 0.3);
 }
 
 /* Style for loading graphic */
